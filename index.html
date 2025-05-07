@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> 
+        <div class="container">
+            <div class="left">
+                <h3>Endereço de Cobrança</h3>
+                <form>
+                    Nome Completo
+                    <input type="text" placeholder="Digite seu Nome">
+                    Email
+                    <input type="text" placeholder="Digite seu Email">
+
+                    Endereço
+                    <input type="text" placeholder="Digite seu Endereço">
+                    Cidade
+                    <input type="text" placeholder="Digite a Cidade">
+                    <div id="zip">
+                        <label for="">
+                            Estado
+                            <select>
+                                <option value="">São Paulo</option>
+                                <option value="">Rio de Janeiro</option>
+                                <option value="">Bahia</option>
+                                <option value="">Minas Gerais</option>
+                                <option value="">Paraná</option>
+                            </select>
+                        </label>
+                        <label for="">
+                            CEP
+                            <input type="number" placeholder="Digite o Cep">
+                        </label>
+                    </div>
+                </form>
+            </div>
+
+            <div class="right">
+                <h3>Pagamento</h3>
+                <form>
+                    Cartão aceito
+
+                    <br>
+
+                    <img src="/assets/card1.png" width="100">
+                    <img src="/assets/card2.png" width="50">
+
+                    <br>
+                    <br>
+
+                    Número do Cartão 
+                    <input type="text" placeholder="Digite o Número">
+
+                    <br>
+
+                    Validade
+                    <input type="text" placeholder="mês de vencimento">
+
+                    <br>
+
+                    <div id="zip">
+                        <label for="">
+                            Ano
+
+                            <select>
+                                <option value="">Escolha o ano</option>
+                                <option value="">2028</option>
+                                <option value="">2029</option>
+                                <option value="">2030</option>
+                                <option value="">2031</option>
+                            </select>
+                        </label>
+                        <label for="">
+                            CVV
+                            <input type="number" placeholder="Código (CVV) ">
+                        </label>
+                    </div>
+                </form>
+                <input type="submit" value="Comprar">
+
+            </div>
+        </div>
+    </header>
+</body>
+</html>
